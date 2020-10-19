@@ -1,9 +1,10 @@
 *{
     margin:0;
+   
 }
 
 main{
-    height:100vh;
+height:100vh;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
@@ -26,7 +27,11 @@ background-color: aqua;
     background-size:cover;
     filter: grayscale(100%);
 }
-.cabecera_imagen_izquierda:hover{filter: none;}
+.cabecera_imagen_izquierda:hover{
+    filter: none;
+    transform: scale(1.5) ;
+    transform-origin: center;
+    z-index: +1;}
 
 .cabecera_imagen_centroIzquierda{
     grid-row: 1/2;
@@ -36,7 +41,11 @@ background-color: aqua;
     background-size:cover;
     filter: grayscale(100%);
 }
-.cabecera_imagen_centroIzquierda:hover{filter: none;}
+.cabecera_imagen_centroIzquierda:hover{
+    filter: none;
+    transform: scale(1.5) ;
+    transform-origin: center;
+    z-index: +1;}
 
 .cabecera_imagen_centroDerecha{
     grid-row: 1/2;
@@ -46,7 +55,11 @@ background-color: aqua;
     background-size:cover;
     filter: grayscale(100%);
 }
-.cabecera_imagen_centroDerecha:hover{filter: none;}
+.cabecera_imagen_centroDerecha:hover{
+    filter: none;
+    transform: scale(1.5) ;
+    transform-origin: center;
+    z-index: +1;}
 
 .cabecera_imagen_derecha{
     grid-row: 1/2;
@@ -56,7 +69,11 @@ background-color: aqua;
     background-size:cover;
     filter: grayscale(100%);
 }
-.cabecera_imagen_derecha:hover{filter: none;}
+.cabecera_imagen_derecha:hover{
+    filter: none;
+    transform: scale(1.5) ;
+    transform-origin: center;
+    z-index: +1;}
 
 .cuerpo{
     grid-row: 2/5;
@@ -73,7 +90,11 @@ background-color: aqua;
     background-size:cover;
     filter: grayscale(100%);
 }
-.cuerpo_imagen_izquierda_superior:hover{filter: none;}
+.cuerpo_imagen_izquierda_superior:hover{
+    filter: none;
+    transform: scale(1.5) ;
+    transform-origin: center;
+    z-index: +1;}
 
 .cuerpo_imagen_izquierda_inferior{
     grid-row: 2/3;
@@ -83,7 +104,11 @@ background-color: aqua;
     background-size:cover;
     filter: grayscale(100%);
 }
-.cuerpo_imagen_izquierda_inferior:hover{filter: none; }
+.cuerpo_imagen_izquierda_inferior:hover{
+    filter: none;
+    transform: scale(1.5) ;
+    transform-origin: center;
+    z-index: +1;} 
 
 .cuerpo_imagen_centro_principal{
     grid-row: 1/3;
@@ -95,19 +120,27 @@ background-color: aqua;
 .cuerpo_imagen_derecha_superior{
     grid-row: 1/2;
     grid-column: 4/5;
-    background-image: url(../img/desktop/cuarta/inside-out\ 1.jpg);
+    background-image: url(../img/desktop/cuarta/inside-out.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     filter: grayscale(100%);
 }
-.cuerpo_imagen_derecha_superior:hover{filter: none; }
+.cuerpo_imagen_derecha_superior:hover{
+    filter: none;
+    transform: scale(1.5) ;
+    transform-origin: center;
+    z-index: +1; }
 
 .cuerpo_imagen_derecha_inferior{
     grid-row: 2/3;
     grid-column: 4/5;
-    background-image: url(../img/desktop/cuarta/onward\ 1.jpg);
+    background-image: url(../img/desktop/cuarta/onward.jpg);
     background-repeat: no-repeat;
    background-size:cover;
    filter: grayscale(100%);
 }
-.cuerpo_imagen_derecha_inferior:hover{filter: none; }
+.cuerpo_imagen_derecha_inferior:hover{
+    filter: none;
+    transform: scale(1.5) ;
+    transform-origin: center;
+    z-index: +1; }
