@@ -1,0 +1,113 @@
+body{
+    background-image: url(../img/desktop/tercera/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+figure{margin-left: 0;}
+
+.contenedor{
+    background-image: url(../img/desktop/tercera/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 200px 1fr;
+   
+}
+
+header{
+    
+    grid-row: 1/2;
+}
+
+main{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows:225px 225px 225px 225px;
+    
+}
+/*PRIMERA FLIA DE IMAGENES*/
+.main_primera_fila{
+    grid-row: 1/2; 
+    display: grid;
+    grid-template-rows:225px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+.main_primera_fila_imagen01{
+    grid-column: 1/4;
+    background-image: url(../img/desktop/tercera/imagen01.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.main_primera_fila_imagen02{
+    grid-column: 4/5; 
+    background-image: url(../img/desktop/tercera/logo01.jpg);
+    background-repeat: no-repeat;
+    
+}
+/*SEGUNDA  FLIA DE IMAGENES*/
+.main_segunda_fila{
+    grid-row: 2/3; 
+    display: grid;
+    grid-template-rows:225px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+.main_segunda_fila_imagen03{
+    grid-column: 1/3;
+    background-image: url(../img/desktop/tercera/imagen02.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+
+.main_segunda_fila_imagen04{
+    grid-column: 3/4; 
+    background-image: url(../img/desktop/tercera/logo02.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+/***TERCERA FILA*/
+.main_tercera_fila{
+    grid-row: 3/4; 
+    display: grid;
+    grid-template-rows:225px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+.main_tercera_fila_imagen05{
+    grid-column: 1/4;
+    background-image: url(../img/desktop/tercera/imagen03.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.main_tercera_fila_imagen06{
+    grid-column: 4/5; 
+    background-image: url(../img/desktop/tercera/logo03.jpg);
+    background-repeat: no-repeat;  
+    
+}
+
+/*****CUARTA FILA****/
+
+.main_cuarta_fila{
+    grid-row: 4/5; 
+    display: grid;
+    grid-template-rows:225px;
+    grid-template-columns: 2fr 1fr 1fr 1fr;  
+}
+.main_cuarta_fila_imagen07{
+    grid-column: 1/2;
+    background-image: url(../img/desktop/tercera/imagen04.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.main_cuarta_fila_imagen08{
+    grid-column: 2/3; 
+    background-image: url(../img/desktop/tercera/logo04.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}

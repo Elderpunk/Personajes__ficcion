@@ -1,0 +1,29 @@
+.contenedor{
+    height:100vh;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 1fr 1fr 1fr   
+}
+header{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+main{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+footer{
+    grid-row: 3/4;
+    grid-column: 2/3;
+   display:flex;
+   flex-direction:row;
+   justify-self: center;
+     
+}
+
+.centro{
+    margin-left: 2em;
+    margin-right: 2em;
+}

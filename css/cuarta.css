@@ -1,0 +1,113 @@
+*{
+    margin:0;
+}
+
+main{
+    height:100vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+background-color: aqua;
+}
+
+
+.cabecera{
+    grid-row: 1/2;
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+}
+
+.cabecera_imagen_izquierda{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-image: url(../img/desktop/cuarta/Toy_story.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: grayscale(100%);
+}
+.cabecera_imagen_izquierda:hover{filter: none;}
+
+.cabecera_imagen_centroIzquierda{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-image: url(../img/desktop/cuarta/Mostruos_SA.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: grayscale(100%);
+}
+.cabecera_imagen_centroIzquierda:hover{filter: none;}
+
+.cabecera_imagen_centroDerecha{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    background-image: url(../img/desktop/cuarta/Los\ increibles.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: grayscale(100%);
+}
+.cabecera_imagen_centroDerecha:hover{filter: none;}
+
+.cabecera_imagen_derecha{
+    grid-row: 1/2;
+    grid-column: 4/5;
+    background-image: url(../img/desktop/cuarta/Nemo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: grayscale(100%);
+}
+.cabecera_imagen_derecha:hover{filter: none;}
+
+.cuerpo{
+    grid-row: 2/5;
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;    
+}
+.cuerpo_imagen_izquierda_superior{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-image: url(../img/desktop/cuarta/Cars.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: grayscale(100%);
+}
+.cuerpo_imagen_izquierda_superior:hover{filter: none;}
+
+.cuerpo_imagen_izquierda_inferior{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-image: url(../img/desktop/cuarta/Ratatuille.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: grayscale(100%);
+}
+.cuerpo_imagen_izquierda_inferior:hover{filter: none; }
+
+.cuerpo_imagen_centro_principal{
+    grid-row: 1/3;
+    grid-column: 2/4;
+    background-image: url(../img/desktop/cuarta/pixar.JPG);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.cuerpo_imagen_derecha_superior{
+    grid-row: 1/2;
+    grid-column: 4/5;
+    background-image: url(../img/desktop/cuarta/inside-out\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: grayscale(100%);
+}
+.cuerpo_imagen_derecha_superior:hover{filter: none; }
+
+.cuerpo_imagen_derecha_inferior{
+    grid-row: 2/3;
+    grid-column: 4/5;
+    background-image: url(../img/desktop/cuarta/onward\ 1.jpg);
+    background-repeat: no-repeat;
+   background-size:cover;
+   filter: grayscale(100%);
+}
+.cuerpo_imagen_derecha_inferior:hover{filter: none; }
